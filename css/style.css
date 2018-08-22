@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'JF Flat';
+    src: url('../font/JF-Flat-regular.eot'),
+    url('../font/JF-Flat-regular.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../font/JF-Flat-regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../font/JF-Flat-regular.svg') format('svg'); /* Legacy iOS */
+}
+
+body {
+    font-family: 'JF Flat', sans-serif;
+    background: rgb(213, 68, 28);
+}
+
+.acordion {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.section {
+    background: white;
+}
+
+.section div {
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.info {
+    display: none;
+}
+
+.main_button {
+    width: 300px;
+    height: 35px;
+    font-size: 24px;
+
+}
+
+.dialog{
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    top: 30%;
+    width: 40%;
+    border: 3px solid darkgrey;
+    border-top: 30px solid darkgrey;
+    background: white;
+    padding: 55px;
+    display: none;
+}
+.close {
+    position: absolute;
+    top: -25px;
+    right: 0;
+}
+
+.buttons{
+    position: absolute;
+    right: 5px;
+}
